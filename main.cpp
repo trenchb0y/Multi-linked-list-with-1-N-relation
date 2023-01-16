@@ -4,40 +4,6 @@ using namespace std;
 
 int main()
 {
-//    SNodeAdr SL = new studentNode; infotypeS x1; int num; string name, nim, major;
-//    CNodeAdr CL = new courseNode; infotypeC x2; string courseName, courseID;
-//    string SID, CID;
-//
-//    cout << "How many student data to be inputted: ";
-//    cin >> num;
-//    for(int i = 1; i <= num; i++){
-//        cout << "\nData " << i << endl;
-//        cout << "Name\t: "; cin >> name; x1.name = name;
-//        cout << "NIM\t: "; cin >> nim; x1.nim = nim;
-//        cout << "Major\t: "; cin >> major; x1.major = major;
-//        insertSNode(SL,createSNode(x1));
-//    }
-//
-//    cout << "How many course data to be inputted: ";
-//    cin >> num;
-//    for(int i = 1; i <= num; i++){
-//        cout << "\nData " << i << endl;
-//        cout << "Course\t\t: "; cin >> courseName; x2.courseName = courseName;
-//        cout << "Course ID\t: "; cin >> courseID; x2.courseID = courseID;
-//        insertCNode(CL,createCNode(x2));
-//    }
-//
-//    cout << "\nEnter SID: "; cin >> SID;
-//    cout << "Course to be enrolled: "; cin >> CID;
-//    connect(SL, CL, SID, CID);
-//    cout << "\nEnter SID: "; cin >> SID;
-//    cout << "Course to be enrolled: "; cin >> CID;
-//    connect(SL, CL, SID, CID);
-//
-//    showData(SL, "130");
-////    showListS(SL);
-////    showListC(CL);
-//    return 0;
     adrStudent SL = new studentNode; infotypeS x;
     string name, sid, major;
     int j, numS;
@@ -121,3 +87,40 @@ int main()
     cout << "PROGRAM TERMINATED";
     return 0;
 }
+
+// IGNORE
+
+//    SNodeAdr SL = new studentNode; infotypeS x1; int num; string name, nim, major;
+//    CNodeAdr CL = new courseNode; infotypeC x2; string courseName, courseID;
+//    string SID, CID;
+//
+//    cout << "How many student data to be inputted: ";
+//    cin >> num;
+//    for(int i = 1; i <= num; i++){
+//        cout << "\nData " << i << endl;
+//        cout << "Name\t: "; cin >> name; x1.name = name;
+//        cout << "NIM\t: "; cin >> nim; x1.nim = nim;
+//        cout << "Major\t: "; cin >> major; x1.major = major;
+//        insertSNode(SL,createSNode(x1));
+//    }
+//
+//    cout << "How many course data to be inputted: ";
+//    cin >> num;
+//    for(int i = 1; i <= num; i++){
+//        cout << "\nData " << i << endl;
+//        cout << "Course\t\t: "; cin >> courseName; x2.courseName = courseName;
+//        cout << "Course ID\t: "; cin >> courseID; x2.courseID = courseID;
+//        insertCNode(CL,createCNode(x2));
+//    }
+//
+//    cout << "\nEnter SID: "; cin >> SID;
+//    cout << "Course to be enrolled: "; cin >> CID;
+//    connect(SL, CL, SID, CID);
+//    cout << "\nEnter SID: "; cin >> SID;
+//    cout << "Course to be enrolled: "; cin >> CID;
+//    connect(SL, CL, SID, CID);
+//
+//    showData(SL, "130");
+////    showListS(SL);
+////    showListC(CL);
+//    return 0;
